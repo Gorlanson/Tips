@@ -16,8 +16,8 @@ WindowsEnum:
 whoami /all  
 systeminfo  
 
-[WinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)
-[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1)
+[WinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)  
+[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1)  
 
 File Transfer:
 --------------------------------------------------
@@ -55,7 +55,7 @@ https://hashes.org/
 
 Links:
 --------------------------------------------------
-https://book.hacktricks.xyz/    /////Cheat Sheet Pentesting all the thing   
-https://github.com/egre55/ultimate-file-transfer-list/blob/master/README.md    //////File Transfer Cheat Sheet  
-https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/   /////////SMB enumeration CheatSheet  
-https://tcm-sec.com/2019/05/25/buffer-overflows-made-easy/    //////////BuferOverFlow tutor  
+https://book.hacktricks.xyz/    //Cheat Sheet Pentesting all the thing   
+https://github.com/egre55/ultimate-file-transfer-list/blob/master/README.md    //File Transfer Cheat Sheet  
+https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/   //SMB enumeration CheatSheet  
+https://tcm-sec.com/2019/05/25/buffer-overflows-made-easy/    //BuferOverFlow tutor  
