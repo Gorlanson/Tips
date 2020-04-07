@@ -4,8 +4,8 @@ Tips
 LinuxEnum: 
 --------------------------------------------------
 
-find / -perm -4000 2>/dev/null   //SUID files  \n
-uname -a                         //Posible Linux Kernel Exploit
+find / -perm -4000 2>/dev/null   //SUID files  \n  
+uname -a                         //Posible Linux Kernel Exploit  
 
 WindowsEnum:
 --------------------------------------------------
