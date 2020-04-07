@@ -49,7 +49,7 @@ https://hashes.org/
 
 Links:
 --------------------------------------------------
-https://book.hacktricks.xyz/    /////Cheat Sheet Pentesting all the thing
+<https://book.hacktricks.xyz/    /////Cheat Sheet Pentesting all the thing>
 https://github.com/egre55/ultimate-file-transfer-list/blob/master/README.md    //////File Transfer Cheat Sheet
 https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/   /////////SMB enumeration CheatSheet
 https://tcm-sec.com/2019/05/25/buffer-overflows-made-easy/    //////////BuferOverFlow tutor
