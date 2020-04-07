@@ -7,11 +7,17 @@ LinuxEnum:
 find / -perm -4000 2>/dev/null   //SUID files    
 uname -a                         //Posible Linux Kernel Exploit  
 
+### Tools:
+[enum4linux](https://github.com/portcullislabs/enum4linux) //enum all  
+[pspy](https://github.com/DominicBreuker/pspy) //Process monitoring in LiveMod
+
 WindowsEnum:
 --------------------------------------------------
 whoami /all  
 systeminfo  
 
+[WinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)
+[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1)
 
 File Transfer:
 --------------------------------------------------
