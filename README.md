@@ -59,3 +59,4 @@ https://book.hacktricks.xyz/    //Cheat Sheet Pentesting all the thing
 https://github.com/egre55/ultimate-file-transfer-list/blob/master/README.md    //File Transfer Cheat Sheet  
 https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/   //SMB enumeration CheatSheet  
 https://tcm-sec.com/2019/05/25/buffer-overflows-made-easy/    //BuferOverFlow tutor  
+https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/  //Linux PrivEsc Tips
