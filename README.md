@@ -60,3 +60,4 @@ https://github.com/egre55/ultimate-file-transfer-list/blob/master/README.md    /
 https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/   //SMB enumeration CheatSheet  
 https://tcm-sec.com/2019/05/25/buffer-overflows-made-easy/    //BuferOverFlow tutor  
 https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/  //Linux PrivEsc Tips
+https://www.hackingdream.net/2020/02/reverse-shell-cheat-sheet-for-penetration-testing-oscp.html  //Reverse Shells  
