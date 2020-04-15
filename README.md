@@ -17,7 +17,7 @@ whoami /all
 systeminfo  
 
 [WinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)  
-[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1) 
+[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1)  
 [fgdump.exe](https://github.com/interference-security/kali-windows-binaries/tree/master/fgdump)  /// DumpPassword NTLM Hashes  
 
 File Transfer:
