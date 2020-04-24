@@ -75,4 +75,5 @@ https://www.hackingdream.net/2020/02/reverse-shell-cheat-sheet-for-penetration-t
 https://www.fuzzysecurity.com/tutorials/16.html  //WindowsPrivEsc   
 https://refabr1k.gitbook.io/oscp/reverse-shell  //StudyNotes  
 https://sushant747.gitbooks.io/total-oscp-guide/sql-injections.html  //SQLTips  
+http://www.securityidiots.com/Web-Pentest/SQL-Injection/  //MoreSQL
 
