@@ -86,4 +86,4 @@ https://www.fuzzysecurity.com/tutorials/16.html  //WindowsPrivEsc
 https://refabr1k.gitbook.io/oscp/reverse-shell  //StudyNotes  
 https://sushant747.gitbooks.io/total-oscp-guide/sql-injections.html  //SQLTips  
 http://www.securityidiots.com/Web-Pentest/SQL-Injection/  //MoreSQL  
-
+https://github.com/21y4d/nmapAutomator/blob/master/nmapAutomator.sh  //nmapAutomator  
