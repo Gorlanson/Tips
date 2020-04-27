@@ -4,7 +4,8 @@ Tips
 LinuxEnum: 
 --------------------------------------------------
 
-find / -perm -4000 2>/dev/null   //SUID files    
+find / -perm -4000 2>/dev/null   //SUID files   
+find / -perm -u=s -type f 2>/dev/null  //SUID files
 uname -a                         //Posible Linux Kernel Exploit  
 
 ### Tools:
