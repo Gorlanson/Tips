@@ -24,16 +24,16 @@ systeminfo
 
 SMBEnum:
 --------------------------------------------------
-nmblookup -A <host>  
-nbtscan <host>  
-smbmap -H <host>  
-smbclient -L <host>  
-smbclient //<host>/tmp  
+nmblookup -A [ip]    
+nbtscan [ip]    
+smbmap -H [ip]    
+smbclient -L [ip]    
+smbclient //[ip]/tmp    
 
 rpcclient -U "" -N [ip]      
 enumdomusers  
 
-nmap --script smb-vuln* -p 139,445 <host>  
+nmap --script smb-vuln* -p 139,445 [ip]    
 nmap --script smb-enum-shares -p 139,445 [ip]  
 enum4linux -a [ip]    
   
