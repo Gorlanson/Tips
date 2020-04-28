@@ -21,6 +21,22 @@ systeminfo
 [Sherlock](https://github.com/rasta-mouse/Sherlock/blob/master/Sherlock.ps1)  
 [fgdump.exe](https://github.com/interference-security/kali-windows-binaries/tree/master/fgdump)  /// DumpPassword NTLM Hashes  
 
+
+SMBEnum:
+--------------------------------------------------
+nmblookup -A <host>  
+nbtscan <host>  
+smbmap -H <host>  
+smbclient -L <host>  
+smbclient //<host>/tmp  
+
+rpcclient -U "" -N [ip]      
+enumdomusers  
+
+nmap --script smb-vuln* -p 139,445 <host>  
+nmap --script smb-enum-shares -p 139,445 [ip]  
+enum4linux -a [ip]    
+  
 File Transfer:
 --------------------------------------------------
 ### nc:
