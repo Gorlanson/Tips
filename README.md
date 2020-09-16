@@ -90,8 +90,12 @@ net localgroup "Remote Desktop Users" alex /add
 
 Hashes decrypt:
 --------------------------------------------------
-https://cmd5.ru/  
-https://hashes.org/  
+http://rainbowtables.it64.com/  
+http://cracker.offensive-security.com/  
+https://passwordrecovery.io/  
+https://crackstation.net/  
+https://gpuhash.me/  
+https://cmd5.org/   
 
 MSFVenom Shell:
 --------------------------------------------------
