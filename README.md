@@ -91,7 +91,7 @@ net localgroup "Remote Desktop Users" alex /add
 Hashes decrypt:
 --------------------------------------------------
 http://rainbowtables.it64.com/  
-http://cracker.offensive-security.com/  
+http://cracker.offensive-security.com/  Priority Code:1337123456  
 https://passwordrecovery.io/  
 https://crackstation.net/  
 https://gpuhash.me/  
